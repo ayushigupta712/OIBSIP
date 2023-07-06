@@ -1,0 +1,113 @@
+*, *::before, *::after{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+h1{
+    padding-bottom: 600px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(163, 174, 211);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.Container{
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius: 9px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%, -50%);
+    min-width: 500px;
+    position: absolute;
+
+}
+
+
+#newtask input{
+    position: relative;
+    width: 70%;
+    height: 50px;
+    color: #111111;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: 2px solid lightgrey;
+    border-radius: 6px;
+    padding: 14px;  
+}
+
+
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+}
+
+
+#newtask input:focus{
+    outline: none;
+    border-color: darkgrey;
+}
+
+#newtask button{
+    position: relative;
+    color: white;
+    font-size: 16px;
+    font-weight: 400px;
+    background-color: rgb(50, 108, 255);
+    cursor: pointer;
+    border-radius: 6px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    width: 24%;
+    height: 48px;
+    float: right;
+    border: none;
+}
+
+.All_Tasks{
+    border-radius: 12px;
+    width: 100%;
+    position: relative;
+    padding: 7px 22px;
+}
+
+.task{
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+    margin-bottom: 10px;
+    padding: 6px 12px;
+    display: flex;
+    background-color: #19c7ee;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task span{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 400;
+}
+
+.task button{
+    background-color: #4b4b4d;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 100%;
+    border-radius: 5px;
+    outline: none;
+    color: #9b9494;
+}

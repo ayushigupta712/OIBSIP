@@ -1,0 +1,43 @@
+body{
+    margin:50px;
+}
+
+.container{
+    background-color: rgba(27, 153, 192, 0.699);
+    padding: 10px 60px 60px 10px;
+    
+}
+
+.Header{
+    text-align: center;
+    color: ghostwhite;;
+}
+
+h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tagline{
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.name{
+    text-align: end;
+    font-size: 12px;
+
+}
